@@ -9,7 +9,7 @@ const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
     database: 'offboarding_db',
-    password: 'root',
+    password: 'admin234',
     port: 5432,
 });
 
@@ -208,5 +208,5 @@ app.delete('/api/offboarding', async (req, res) => {
 
 // Start server
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Server running at http://13.61.153.85${port}`);
 });
