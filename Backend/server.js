@@ -7,7 +7,7 @@ const port = 3000;
 // Database connection configuration
 const pool = new Pool({
     user: 'postgres',
-    host: 'localhost',
+    host: 'postgres',
     database: 'offboarding_db',
     password: 'admin234',
     port: 5432,
